@@ -27,7 +27,7 @@ body {
   justify-items: center;
 }
 p {
-  font-size: 20;
+  font-size: 20px;
 }
 header {
   background-color: #004040;
@@ -45,7 +45,7 @@ header {
 .bold {
   padding-left: 10%;
   padding-right: 10%;
-  font-size: 36;
+  font-size: 36px;
 }
 footer {
   background-color: #d7c9aa;
@@ -75,7 +75,7 @@ h1 {
   padding-bottom: 50px;
 }
 form {
-  font-size: 18;
+  font-size: 18px;
   text-align: left;
   max-width: 600px;
   border: solid #004040;
