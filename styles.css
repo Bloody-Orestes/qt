@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   font-family: sans-serif;
+  background: linear-gradient(225deg, #fdfdfd, #B3C6C6);
 }
 .header {
   max-width: 100px;
@@ -16,7 +17,7 @@ body {
   grid-template-rows: 100%;
   display: grid;
   align-items: center;
-  padding-top: 70px;
+  padding-top: 100px;
   justify-items: center;
 }
 .container4 {
@@ -27,31 +28,33 @@ body {
   justify-items: center;
 }
 p {
-  font-size: 20px;
+  font-size: 20;
 }
 header {
-  background-color: #004040;
+  background: linear-gradient(45deg, #003333, #004040);
   position: fixed;
   width: 100%;
   min-height: 100px;
   display: grid;
   align-items: center;
-  box-shadow: 0px 10px 40px #d7c9aa;
+  box-shadow: 0px 10px 40px #003333;
 }
 .img {
   max-width: 100%;
   max-height: 100%;
+  border-radius: 40px;
 }
 .bold {
   padding-left: 10%;
   padding-right: 10%;
-  font-size: 36px;
+  font-size: 36;
 }
 footer {
-  background-color: #d7c9aa;
+  background:linear-gradient(225deg, #402000, #ffc52d, #402000);
   max-height: 100%;
   text-align: center;
   padding: 20px;
+  border-top: solid #402000;
 }
 nav {
   display: inline;
@@ -61,46 +64,49 @@ nav {
 button {
   border: 0px;
   color: #cdd7d6;
-  background-color: #004040;
+  background: inherit;
 }
 button:hover {
-  color: #d7c9aa;
+  color: #ffc52d;
 }
 h1 {
   text-align: center;
   padding: 30px 0px;
 }
 .gray {
-  background-color: #d7c9aa;
+  background: linear-gradient(45deg, #003333, #004040);
+  color: #B3C6C6;
   padding-bottom: 50px;
+  border: double #003333;
 }
 form {
-  font-size: 18px;
+  font-size: 18;
   text-align: left;
   max-width: 600px;
-  border: solid #004040;
   border-radius: 80px 80px 0px 0px;
   padding-top: 30px;
   padding-bottom: 30px;
-  box-shadow: 6px 15px 30px #C0C0C0;
+  box-shadow: 6px 15px 30px #003333;
+  background: linear-gradient(225deg, #cdd7d6, #003333);
 }
 input {
   padding: 10px;
   background-color: #cdd7d6;
   width: 300px;
-  border: solid #7c98b3;
+  border: solid #004040;
+  border-radius: 5px;
 }
 input:hover {
   background-color: #004040;
 }
 input:focus {
-  background-color: #C0C0C0;
+  background-color: #B3C6C6;
 }
 textarea[id="message"]:hover {
   background-color: #004040;
 }
 textarea[id="message"]:focus {
-  background-color: #C0C0C0;
+  background-color: #B3C6C6;
 }
 textarea[id="message"] {
   width: 300px;
@@ -112,29 +118,25 @@ textarea[id="message"] {
   font-weight: 400px;
   font-family: sans-serif;
   padding: 10px;
-  border: solid #7c98b3;
+  border: solid #004040;
 }
 input[id="submit"] {
+  background: linear-gradient(225deg, #99AFA3, #ffc52d);
+  border: solid #ffc52d;
+  border-radius: 5px;
   max-width: 120px;
+}
+input[id="submit"]:hover {
+  background: #004040;
+  color: #ffc52d;
 }
 fieldset {
   border: 0px;
 }
-div[id="one"] {
-  padding-top: 50px;
-  padding-bottom: 50px;
+div[id="one"],[id="two"],[id="three"],[id="four"] {
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
-div[id="two"] {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-div[id="three"] {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-div[id="four"] {
-  padding-bottom: 50px;
-} 
 div {
   padding-left: 30px;
   padding-right: 30px;
@@ -149,30 +151,30 @@ div[id="first"] {
 }
 .left {
   padding-right: 20%;
-  border-left: solid #004040;
   border-radius:  25px 0px 0px 25px;
   padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: solid #004040;
   box-shadow: 6px 6px 30px #C0C0C0;
+  background: linear-gradient(225deg, #ffffff 0,1, #ffffff 0.1);
 }
 .right {
   padding-left: 20%;
-  border-right: solid #004040;
   border-radius: 0px 25px 25px 0px;
   padding-right: 20px;
   padding-bottom: 20px;
   padding-top: 20px;
   border-bottom: solid #004040;
   box-shadow: 6px 6px 30px #C0C0C0;
+  background: linear-gradient(45deg, #000000 0.1, #000000 0.1);
 }
 .center {
   text-align: center;
 }
 img[id="s-icon"] {
-  height: 28px;
-  width: 28px;
+  height: 28;
+  width: 28;
   border-radius: 10px;
   padding: 5px;
 }
@@ -183,7 +185,7 @@ label[id="footer"] {
   font-size: 18px;
 }
 span[id="form"] {
-  color: red;
+  color: #004040;
 }
 @media only screen and (max-width: 768px) {
     .container4 {
