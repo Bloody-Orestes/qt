@@ -4,8 +4,8 @@ body {
   background: linear-gradient(225deg, #fdfdfd, #B3C6C6);
 }
 .header {
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 80px;
+  max-height: 80px;
   padding-left: 6%;
 }
 .container {
