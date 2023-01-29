@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   font-family: sans-serif;
-  background: linear-gradient(225deg, #fdfdfd, #B3C6C6);
+  background: linear-gradient(#E8DCB8, #cdd7d6);
 }
 .header {
   max-width: 80px;
@@ -19,6 +19,7 @@ body {
   align-items: center;
   padding-top: 100px;
   justify-items: center;
+  background: linear-graient(#E8DCB8, #E8D1B0);
 }
 .container4 {
   grid-template-columns: 33% 33% 33%;
@@ -37,24 +38,28 @@ header {
   min-height: 100px;
   display: grid;
   align-items: center;
-  box-shadow: 0px 10px 40px #003333;
+  z-index: 1;
 }
 .img {
   max-width: 100%;
   max-height: 100%;
   border-radius: 40px;
+  mix-blend-mode: multiply;
 }
-.bold {
+h1 {
   padding-left: 10%;
   padding-right: 10%;
+  padding-bottom: 20px;
   font-size: 36px;
+  color: #262626;
 }
 footer {
   background:linear-gradient(225deg, #402000, #ffc52d, #402000);
   max-height: 100%;
   text-align: center;
   padding: 20px;
-  border-top: solid #402000;
+  border-top: solid #594a47;
+  color: #594a47;
 }
 nav {
   display: inline;
@@ -69,9 +74,10 @@ button {
 button:hover {
   color: #ffc52d;
 }
-h1 {
+h2 {
   text-align: center;
   padding: 30px 0px;
+  font-size: 28px;
 }
 .gray {
   background: linear-gradient(45deg, #003333, #004040);
@@ -121,7 +127,7 @@ textarea[id="message"] {
   border: solid #004040;
 }
 input[id="submit"] {
-  background: linear-gradient(225deg, #99AFA3, #ffc52d);
+  background: linear-gradient(225deg, #F9D664, #ffc52d);
   border: solid #ffc52d;
   border-radius: 5px;
   max-width: 120px;
@@ -156,8 +162,8 @@ div[id="first"] {
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: solid #004040;
-  box-shadow: 6px 6px 30px #C0C0C0;
-  background: linear-gradient(225deg, #ffffff 0,1, #ffffff 0.1);
+  box-shadow: 6px 6px 30px #B3C6C6;
+  background: linear-gradient(225deg, #ffffff 0.1, #ffffff 0.1);
 }
 .right {
   padding-left: 20%;
@@ -166,7 +172,7 @@ div[id="first"] {
   padding-bottom: 20px;
   padding-top: 20px;
   border-bottom: solid #004040;
-  box-shadow: 6px 6px 30px #C0C0C0;
+  box-shadow: 6px 6px 30px #B3C6C6;
   background: linear-gradient(45deg, #000000 0.1, #000000 0.1);
 }
 .center {
@@ -193,5 +199,14 @@ span[id="form"] {
     }
     .container2 {
       display: block;
+    }
+    h1 {
+      font-size: 32px;
+    }
+    h2 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 16px;
     }
 }
